@@ -1,0 +1,49 @@
+samples:
+- ERR1333181
+- ERR3192241
+- ERR3503286
+- ERR3588763
+- ERR4192538
+- ERR738546
+- SRR10186387
+- SRR10953298
+- SRR12473531
+- SRR12522841
+- SRR2952554
+- SRR490140
+- SRR5208701
+- SRR5216658
+- SRR5247052
+- SRR5459769
+- SRR5468149
+- SRR5468150
+- SRR5468153
+- SRR5829599
+- SRR5855413
+- SRR5855414
+- SRR5891573
+- SRR6048908
+- SRR6262267
+- SRR6266338
+- SRR6266358
+- SRR6683740
+- SRR7428116
+- SRR7428132
+- SRR7528444
+- SRR7769747
+- SRR7769784
+- SRR9691033
+- SRR5208701
+
+outdir: outputs.antarctic/
+metagenome_trim_memory: 1e9
+
+sourmash_databases:
+- databases/antarctic.zip
+
+local_databases_info:
+- databases/antarctic.info.csv
+
+prevent_sra_download: true
+
+sourmash_database_threshold_bp: 0
